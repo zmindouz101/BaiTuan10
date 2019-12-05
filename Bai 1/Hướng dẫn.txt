@@ -1,0 +1,20 @@
+
+Cach ban cai dat theo hướng dẫn
+
+--------------------------------------------------
+BT2
+vào CMD 
+
+** set path=%path%;C:\Program Files\Java\jdk-9.0.4\bin **
+Phần set patch có thẻ bỏ
+cd /d D:(Thư mục chứa CLASS)
+gõ
+javac *.java 
+rmic FileImpl
+start rmiregistry
+-------------------------
+mở tab mới
+start java FileServer
+-------------------------
+mở tab mới
+java FileClient D:\RapidGet.exe localhost
